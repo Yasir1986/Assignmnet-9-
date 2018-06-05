@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+#SearchBar{
+    text-align: center;
+}
+
+.search{
+    font-size: 50px;
+    width: 1000px;
+}
+
+#buttons{
+    padding: 30px;
+    margin-left: 490px; 
+    
+}
+
+#byName:hover,
+byName:focus{
+    cursor: pointer;
+    outline: 2px solid grey;
+    font-weight: bold;
+    
+}
+
+#byPrice:hover,
+byPrice:focus{
+    cursor: pointer;
+    outline: 2px solid grey;
+    font-weight: bold;
+}
+
+#byRank:hover,
+byRank:focus{
+    cursor: pointer;
+    outline: 2px solid grey;
+    font-weight: bold;
+}
+
+
+#coins-container{
+    margin-left: 45px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.coin{
+    width:250px;
+    height:250px;
+    background: grey;
+    border:2px solid lightblue;
+
+}
+
+#current{
+    color:green;
+    margin-left: 45px;
+}
+
+#coins-container{
+    color : black;
+    text-align: center;
+    margin-top: 25px;
+}
+
+input:focus{
+    background-color: aqua;
+}
